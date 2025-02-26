@@ -1,0 +1,18 @@
+1->
+        the authentication part
+
+2-> 
+the home page of ecommerce website , if excluded the changes would be 
+        1--productController.js
+        2--productModel.js
+        3--productRoutes.js
+
+        4-- remove these from server.js
+
+        app.use('/api/products', productRoutes);
+
+        app.get('/', (req, res) => {
+            res.send("Backend is running...");
+        });
+
+        
